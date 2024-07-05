@@ -12,18 +12,20 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
-        <p><a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a></p>
+        <h2>JOEL WHITE</h2>
+        <p><a href="mailto:joel.white.gsp@gmail.com">joel.white.gsp@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Michael. I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni,
-        and the VP of Engineering at <a href="https://smileidentity.com">Smile Identity</a>. Previously,
-        I was the co-founder and CTO of <a href="https://arthena.com">Arthena</a>
-        , co-founder of <a href="https://matroid.com">Matroid</a>, and worked at
-        {' '}<a href="https://planet.com">Planet</a> and <a href="https://facebook.com">Facebook</a>.
+      <p>Computer expert with exceptional customer service and
+        technical support skills. Background in information systems and
+        project management working for SpaceX, Verizon, Texas Instruments,
+        and US Army veteran. Experience includes full-stack software development,
+        hardware/software automation, SCADA, telecommunication and
+        information network technology. B.S. in programming and
+        master’s in information systems management with project management focus.
       </p>
       <ul className="actions">
         <li>
@@ -34,7 +36,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.</p>
+      <p className="copyright">&copy; Joel White <Link to="/">joel-white.me</Link>.</p>
     </section>
   </section>
 );
